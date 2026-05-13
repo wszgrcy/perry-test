@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "perry compile src/main.ts -o myapp && bash -c './myapp'"
+    "start": "perry compile src/main.ts -o myapp -v && bash -c './myapp'"
   },
   "dependencies": {
     "@perryts/perry": "^0.5.890",
@@ -15,6 +15,9 @@
     "valibot": "^1.4.0"
   },
   "perry": {
-    "compilePackages": ["valibot"]
+    "compilePackages": [
+      "valibot",
+      "@piying/valibot-visit"
+    ]
   }
 }
