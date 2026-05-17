@@ -10,7 +10,7 @@
     "start": "perry compile src/main.ts -o myapp -v && bash -c './myapp'"
   },
   "dependencies": {
-    "@perryts/perry": "^0.5.890",
+    "@perryts/perry": "^0.5.923",
     "@piying/valibot-visit": "^1.3.13",
     "valibot": "^1.4.0"
   },
