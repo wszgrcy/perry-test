@@ -1,21 +1,9 @@
 // failed
-const __defProp = Object.defineProperty;
-const __export = (target: Record<string, any>, all: Record<string, any>) => {
-  for (let name in all) __defProp(target, name, { get: all[name], enumerable: true });
-};
-__export(
-  {},
-  {
-    a: () => 1,
-  },
-);
-// success
-// const __export = (target: Record<string, any>, all: Record<string, any>) => {
-//   for (let name in all) Object.defineProperty(target, name, { get: all[name], enumerable: true });
-// };
-// __export(
-//   {},
-//   {
-//     a: () => 1,
-//   },
-// );
+// import { setAlias } from '@piying/view-core';
+// console.log(setAlias);
+import { Subject } from 'rxjs';
+let a = new Subject();
+a.subscribe((value) => {
+  console.log(value);
+});
+a.next(1)
