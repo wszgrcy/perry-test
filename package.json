@@ -19,29 +19,11 @@
   },
   "perry": {
     "compilePackages": [
-      "@piying/valibot-visit",
-      "valibot",
-      "@piying/view-core",
-      "rxjs",
-      "rfdc",
-      "fast-equals",
-      "es-toolkit",
-      "clsx",
-      "@hyperjump/json-schema",
-      "tslib"
+      "rxjs"
     ],
     "allow": {
       "compilePackages": [
-        "@piying/valibot-visit",
-        "valibot",
-        "@piying/view-core",
-        "rxjs",
-        "rfdc",
-        "fast-equals",
-        "es-toolkit",
-        "clsx",
-        "@hyperjump/json-schema",
-        "tslib"
+        "rxjs"
       ]
     },
     "allowDynamicStdlibDispatch": true
